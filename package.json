@@ -53,7 +53,12 @@
     "ts-jest": "^27.1.2",
     "typescript": "^4.5.4"
   },
-  "bundledDependencies": [],
+  "dependencies": {
+    "shx": "^0.3.3"
+  },
+  "bundledDependencies": [
+    "shx"
+  ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
   "version": "0.0.0",
@@ -100,7 +105,15 @@
   "stability": "stable",
   "jsii": {
     "outdir": "dist",
-    "targets": {},
+    "targets": {
+      "java": {
+        "package": "org.acme",
+        "maven": {
+          "groupId": "org.acme",
+          "artifactId": "example"
+        }
+      }
+    },
     "tsc": {
       "outDir": "lib",
       "rootDir": "src"
