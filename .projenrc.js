@@ -9,7 +9,7 @@ const project = new cdk.JsiiProject({
   repositoryUrl: 'https://github.com/Chriscbr/jsii-pacmak-repro.git',
 
   // added
-  bundledDeps: ['shx'],
+  deps: ['shx'],
   publishToMaven: {
     javaPackage: 'org.acme',
     mavenGroupId: 'org.acme',

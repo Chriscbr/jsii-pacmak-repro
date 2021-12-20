@@ -2,7 +2,7 @@
   "name": "jsii-pacmak-repro",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rybickic/jsii-pacmak-repro.git"
+    "url": "https://github.com/Chriscbr/jsii-pacmak-repro.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -56,9 +56,7 @@
   "dependencies": {
     "shx": "^0.3.3"
   },
-  "bundledDependencies": [
-    "shx"
-  ],
+  "bundledDependencies": [],
   "main": "lib/index.js",
   "license": "Apache-2.0",
   "version": "0.0.0",
